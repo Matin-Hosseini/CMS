@@ -1,0 +1,50 @@
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.top-bar__logo {
+  font-family: "Oswald", sans-serif;
+}
+
+.top-bar__icons{
+    display: flex;
+    align-items: center;
+}
+
+.top-bar__icon-container{
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.top-bar__icon-container svg{
+    font-size: 30px;
+   
+}
+
+.top-bar__icon-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgb(245, 100, 112);
+    display: grid;
+    place-content: center;
+    width: 15px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.top-bar__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
