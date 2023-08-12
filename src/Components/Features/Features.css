@@ -1,0 +1,30 @@
+.features{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature__content{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.feature__price{
+    font-size: 20px;
+}
+.feature__status{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.feature__percentage{}
+.feature__icon{
+    color: green;
+}
+.feature__icon.negative{
+    color: #fc4848;
+}
+.feature__link{
+    color: #858585;
+}
