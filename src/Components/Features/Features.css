@@ -1,5 +1,6 @@
 .features{
-    width: 80%;
+    width: 100%;
+    flex: 1;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
