@@ -3,3 +3,7 @@
     width: 100%;
     /* color: #426696; */
 }
+.home-widgets{
+    display: flex;
+    margin: 0;
+}
